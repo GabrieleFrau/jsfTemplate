@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/jsfTemplate">
+  <Realm className="org.apache.catalina.realm.JDBCRealm" connectionURL="jdbc:sqlite::resource:db.sqlite" driverName="org.sqlite.JDBC" roleNameCol="role" userCredCol="password" userNameCol="username" userRoleTable="ROLES" userTable="USERS"/>
+</Context>
